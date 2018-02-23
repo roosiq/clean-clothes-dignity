@@ -1,0 +1,62 @@
+{
+  "name": "gatsby-starter-grommet",
+  "description": "Gatsby starter with the Grommet design system",
+  "version": "1.0.0",
+  "author": "Aaron Lampros <alampros@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/alampros/gatsby-starter-grommet/issues"
+  },
+  "scripts": {
+    "dev": "gatsby develop",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "git clean -xfd .cache public/",
+    "serve": "yarn run clean && yarn run build && gatsby serve",
+    "deploy": "yarn run build -- --prefix-paths && gh-pages -d public"
+  },
+  "dependencies": {
+    "autoprefixer": "^7.1.2",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "gatsby": "^1.1.0",
+    "gatsby-image": "^1.0.37",
+    "gatsby-link": "^1.6.37",
+    "gatsby-plugin-favicon": "^2.1.1",
+    "gatsby-plugin-glamor": "^1.6.12",
+    "gatsby-plugin-google-analytics": "^1.0.19",
+    "gatsby-plugin-google-fonts": "0.0.3",
+    "gatsby-plugin-react-helmet": "^2.0.5",
+    "gatsby-plugin-sharp": "^1.6.30",
+    "gatsby-transformer-sharp": "^1.6.19",
+    "google-map-react": "^0.31.0",
+    "google-maps-react": "^1.1.2",
+    "grommet": "^1.5.0",
+    "node-sass": "^4.5.2",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-headroom": "^2.2.2",
+    "react-helmet": "^5.2.0",
+    "react-iframe": "^1.1.0",
+    "react-slick": "^0.18.1",
+    "react-sticky": "^6.0.1",
+    "react-sticky-dynamic-header": "^0.1.2",
+    "react-sticky-header": "^0.1.9",
+    "react-stickynode": "^1.4.1",
+    "sass-loader": "^4.1.1",
+    "sticky-state": "^2.4.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.0.0"
+  },
+  "homepage": "https://github.com/alampros/gatsby-starter-grommet#readme",
+  "keywords": [
+    "gatsby",
+    "starter",
+    "gatsby-starter"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alampros/gatsby-starter-grommet.git"
+  }
+}

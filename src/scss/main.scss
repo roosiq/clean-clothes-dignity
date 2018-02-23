@@ -1,0 +1,36 @@
+@import 'variables';
+@import '~grommet/scss/grommet-core/index';
+@import '~grommet/scss/hpe/_objects.button-hpe';
+@import '~grommet/scss/hpe/_objects.anchor-hpe';
+
+.hero-bottom {
+  position: absolute;
+  bottom: 1.5em;
+}
+
+div {
+  font-family: 'Lato', sans-serif;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  line-height: 1em;
+}
+
+p.small-text {
+  font-family: 'Lato', sans-serif;
+}
+
+.dollars:before { content:'$'; }
+
+#grad {
+    background: linear-gradient(azure, white);
+}
+
+p.cardsmall {
+  font-size: 12px;
+}
