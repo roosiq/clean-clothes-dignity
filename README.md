@@ -1,14 +1,10 @@
-# gatsby-starter-grommet
-Gatsby starter configured to use the [Grommet design system](https://grommet.github.io/).
+# clean-clothes-dignity
+backup of the cleanclothesfordignity.com website.
 
-Use this starter by running:
-
-```sh
+started with [Grommet design system](https://grommet.github.io/).
+&
 gatsby new my-grommet-site https://github.com/alampros/gatsby-starter-grommet
-```
-
-See the [Gatsby starters docs](https://www.gatsbyjs.org/docs/gatsby-starters/) for more info on starters.
 
 ### Demo
 
-See the [live demo](https://alampros.github.io/gatsby-starter-grommet/)
+See the [live demo](https://cleanclothesfordignity.com)
